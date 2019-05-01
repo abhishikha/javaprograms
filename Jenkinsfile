@@ -1,5 +1,5 @@
 pipeline {
-node('AWS_EC2'){
+agent { label 'AWS_EC2'} {
     agent { docker 'maven:3.5-alpine' }
     stages {
         stage ('Checkout') {
