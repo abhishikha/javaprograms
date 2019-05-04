@@ -6,7 +6,7 @@
       "source_ami": "ami-02f6b13daf6c7c6b5",
       "instance_type": "t2.micro",
       "ssh_username": "ubuntu",
-      "ami_name": "JenkinsImage",
+      "ami_name": "jenkins-agent-{{isotime \"2019-05-02T2327\"}}",
       "launch_block_device_mappings": [
         {
           "device_name": "/dev/sda1",
